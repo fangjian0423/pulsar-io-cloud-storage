@@ -532,6 +532,10 @@
     </dependency>
     <dependency>
       <groupId>com.azure</groupId>
+      <artifactId>azure-identity</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.azure</groupId>
       <artifactId>azure-storage-blob</artifactId>
       <exclusions>
         <exclusion>
@@ -539,6 +543,7 @@
           <artifactId>azure-core-http-netty</artifactId>
         </exclusion>
       </exclusions>
+      <version>12.30.0-beta.1</version>
     </dependency>
     <dependency>
       <groupId>com.azure</groupId>
